@@ -1,0 +1,346 @@
+.navbar-brand{
+    animation-name: brand;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+}
+@keyframes brand {
+    from{
+        top: 1000px;
+    }
+    to{
+        top: auto;
+    }
+}
+.container{
+    width: 75%; 
+
+}
+.fs-57{
+    font-size: 57px;
+}
+.nav-link{
+    color: #F6F4EB
+}
+.active{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: #0C356A;
+}
+.nav-li-link{
+    font-size: larger;
+}
+.navbar{
+    z-index: 999999;
+}
+svg{
+    height: 25px;
+    width: 25px;
+}
+.lead1{
+    color: #F8FF95;
+}
+.size{
+    background: url(weather-bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.img-fluid{
+    filter: blur(1px);
+    -webkit-filter: blur(1.8px);
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+.collapse{
+    margin-right: 4%;
+}
+.navbar-item-gap{
+    margin-right: 20px;
+}
+.navbar-items-gap{
+    margin-right: 10px;
+}
+.nav-link:hover{
+    color: #9E9FA5;
+}
+.btn-light{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: white;
+    border: 0;
+}
+.form-control{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 0;
+    width: 75%;
+}
+.btn:hover{
+    color: white;
+}
+.d-flex{
+    margin-top: 3%;
+}
+.p-100{
+    padding: 100px 0;
+}
+.detail{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.79) 0%, rgba(240, 245, 255, 0) 100%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 48px 0;
+    height: 552px;  
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.city-detail {
+    padding: 0 40px;
+}
+.fw-25{
+    font-weight: 25px;
+}
+.fs-23{
+    font-size: 23px;
+}
+.date-detail{
+    margin: 20px 0px;
+}
+.fw-6{
+    font-weight: 600;
+}
+.fs-95{
+    font-size: 95px;
+}
+.lh-120{
+    line-height: 120%;
+}
+.color-dark{
+    color: #040D12;
+}
+.text-center{
+    text-align: center!important;
+}
+.fs-28{
+    font-size: 28px;
+}
+.card-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.featurette-divider {
+    margin: 5rem 0;
+}
+.featurette-heading {
+    margin-top: 7rem;
+}
+.image-fix{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.featurette-divider-bottom{
+    margin-bottom: 5rem;
+}
+.featurette-divider-top{
+    margin-top: 5rem;
+}
+.cities-box{
+    border-radius: 20px;
+    text-align: center;
+    padding: 48px 0;
+    height: 552px;  
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background: rgba(137, 142, 143, 0.5);
+    margin: 50px 0;
+    background-color: black;
+    margin: 16px 0px;
+}
+.content {
+    padding: 24px;
+    background: linear-gradient(180deg, #F0F5FF 0%, rgba(240, 245, 255, 0.22) 100%);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.slider{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.slide-list{
+    width: 100%;
+    position: relative;
+    display: block;
+    float: calc(100 / 4);
+    margin: 0;
+    padding: 0;
+}
+::after ::before{
+    box-sizing: border-box;
+}
+.slide-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Hour{
+    width: 165px;
+    position: relative;
+    display: block;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    margin-right: 8px;
+}
+.weather-update-hourly{
+    padding: 0 10px;
+    margin-bottom: 16px;
+}
+.weather-update-hourly-border{
+    border-right: 1px solid #252222;
+}
+.mb-1 {
+    margin-bottom: 0.25rem!important;
+}
+.fw-4 {
+    font-weight: 400;
+}
+.fs-19 {
+    font-size: 19px;
+}
+.mb-0{
+    margin-bottom: 0px;
+}
+.lh-160 {
+    line-height: 160%;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.btn-slider{
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+}
+.btn-dark{
+    opacity: 0%;
+}
+.prev{
+    left: 0px;
+    z-index: 99;
+}
+.next{
+    right: 0px;
+    z-index: 99;
+}
+.marketing{
+    width: 100%;
+}
+.d-none{
+    display: none;
+}
+.btn{
+    border: 0px;
+}
+@media (min-width : 1465px){
+    .box-1{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+    .box-2{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+    .box-3{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+    .box-4{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+    .box-5{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+    .box-6{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+    .box-7{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+    .box-8{
+        display:flex;
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+}
+@media (min-wdth :1400px) {
+    .box-1{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .box-2{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .box-3{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .box-4{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .box-5{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .box-6{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .box-7{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .box-8{
+        display:flex;
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
